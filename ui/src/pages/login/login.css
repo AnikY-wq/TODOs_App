@@ -1,0 +1,33 @@
+.container {
+  min-width: 25em;
+  height: max-content;
+  border: 2px solid #999;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  min-width: 20em;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group > input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.form-group > label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  align-self: flex-start;
+}
+
+.title {
+  font: bolder 2rem verdana;
+  margin-bottom: 1rem;
+  align-self: flex-start;
+}
